@@ -2,7 +2,7 @@
   "name": "node-hello-world",
   "version": "1.0.0",
   "description": "node-server",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,9 @@
     "server"
   ],
   "author": "Davide Farci",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
 }
